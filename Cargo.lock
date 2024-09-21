@@ -275,6 +275,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "flashswap_contract"
+version = "0.1.0"
+dependencies = [
+ "amm-helpers",
+ "ink",
+ "ink_env",
+ "parity-scale-codec",
+ "psp22",
+ "scale-info",
+ "traits",
+ "wrapped-azero",
+]
+
+[[package]]
 name = "fnv"
 version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
